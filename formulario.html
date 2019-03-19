@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <title>REGISTRO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilo/normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <style media="screen">
+    header{
+  text-align: center;
+  background-color: #00ccff;
+  padding: 18px;
+  font-size: 52px;
+  border-style:  double;
+
+  }
+  body {
+  margin: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffcc;
+  border-style:  double;
+
+  }
+
+  h1{
+  border: none;
+  margin-left: 12px;
+  text-align: center;
+  border-style:  double;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  p{
+  border: none;
+  margin-left: 10px;
+  text-align: center;
+  }
+
+  h2{
+  text-align: center;
+  border: none;
+  margin-left: 10px;
+  font-size: 20px;
+  border-style:  double;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  section{
+  border: none;
+  flex: 0;
+  width: 70%;
+  background-color: #00ccff;
+  }
+
+  article{
+  flex: 1;
+  width: 99.5%;
+  align-items:  center;
+  border-style:  double;
+
+  }
+
+  .navbar{
+  overflow: hidden;
+  background-color: #99ff99;
+  text-align: center;
+  border-style:  double;
+
+  }
+
+
+
+
+  .navbar a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  border-style:  double;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+
+
+  #main article {
+  background: #CFC;
+  flex: 3 1 60%;
+  order: 2;
+  border-style:  double;
+  }
+
+  #main aside {
+   background: #CCF;
+   flex: 1 6 60%;
+   order: 3;
+   height: 100%;
+   float:  right;
+   text-align: center;
+
+
+  }
+
+
+
+  footer{
+        display: block;
+  min-height: 10%;
+  background: #FC6;
+        text-align: center;
+        font-style: oblique;
+        font-size: large;
+        border-style: groove;
+  }
+
+  #c_3022d0e2405f900ae95209d1edb2c952{
+
+  border-style: dashed;
+  }
+  #main h3{
+     text-align: center;
+
+  }
+    </style>
+    <body>
+        <div id="fasesoria">
+        <form>
+            <fieldset>
+                <legend> Datos Personales</legend>
+                <table>
+                    <tr>
+                        <td class="etiqueta">Identificacion</td>
+                        <td> <input type="number" name="Id" required placeholder="Identificacion"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="etiqueta">Nombres</td>
+                        <td> <input type="text" name="Id" required placeholder="Nombres"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="etiqueta">Apellidos</td>
+                        <td> <input type="text" name="Id" required placeholder="Apellidos"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="etiqueta">celular</td>
+                        <td> <input type="number" name="Id" required placeholder="Celular"></td>
+                    </tr>
+
+                    <tr>
+
+                    <tr>
+                        <td class="etiqueta">Email</td>
+                        <td> <input type="email" name="email" required placeholder="Escriba su Email"></td>
+                    </tr>
+                    <tr>
+                        <td class="etiqueta">Sexo</td>
+                        <td>
+                        <input type="radio" name="gender" value="hombre">Hombre
+                        <input type="radio" name="gender" value="Mujer">mujer
+                        <input type="radio" name="gender" value="Mujer">otro
+
+                        </td>
+                    </tr>
+
+                </table>
+
+              <table>
+
+                <tr>
+                        <td class="etiqueta">Fecha de Nacimiento</td>
+                        <td><input type="date" name="Fecha" required placeholder="Escoja la Fecha"></td>
+
+                 </tr>
+
+                 <tr>
+                         <td class="etiqueta">Fecha de expedicion de cedula</td>
+                         <td><input type="date" name="Fecha" required placeholder="Escoja la Fecha"></td>
+
+                  </tr>
+
+                    <tr>
+                        <td class="etiqueta">Nivel de Estudio</td>
+                        <td>
+
+                            <input list="Nivel" name="Estudio" required placeholder="Nivel de Estudio">
+                         <datalist id="Nivel">
+                         <option value="Primaria">
+                         <option value="Bachillerato">
+                         <option value="Universitario">
+                         </datalist>
+
+                        </td>
+                    </tr>
+
+
+                  <tr>
+                        <td class="etiqueta">Otro</td>
+                        <td><textarea name="message" rows="5" cols="30" required> </textarea></td>
+                  </tr>
+
+                  <tr>
+                      <td><button type="submit" >Enviar</button></td>
+                      <td><button type="reset">Borrar</button></td>
+
+                  </tr>
+                </table>
+            </fieldset>
+
+
+        </form>
+        </div>
+
+
+    </body>
+</html>
